@@ -1,7 +1,8 @@
 package com.curso.domains.enums;
 
 public enum Status {
-    INATUVI(0, "INATIVO"), ATIVO(1, "ATIVO");
+
+    INATIVO(0, "INATIVO"), ATIVO(1, "ATIVO");
 
     private Integer id;
     private String situacao;
@@ -26,15 +27,13 @@ public enum Status {
     public void setSituacao(String situacao) {
         this.situacao = situacao;
     }
-
-    public static Status toEnum(Integer id) {
-        if (id == null) return null;
-        for (Status x : Status.values()) {
-            if (id.equals(x.getId())) {
-                return x;
+    public static Status toEnum(Integer id) throws IllegalAccessException {
+        if (id==null) return null;
+        for (Status x :Status.values()){
+            if (id.equals(x.getId())){
+             return x;
             }
         }
-        throw new illegalArgumentException("Status Invalido");
+        throw new IllegalAccessException("Status ivalido");
     }
-
 }
