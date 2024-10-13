@@ -1,6 +1,7 @@
 package com.curso.domains;
 
 import com.curso.domains.enums.Status;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Digits;
@@ -36,6 +37,7 @@ public class Produto {
     @JsonFormat(pattern = "dd/MM/yyyy")
     private LocalDate dataCadastro = LocalDate.now();
 
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "idgrupoproduto")
     private GrupoProduto grupoProduto;

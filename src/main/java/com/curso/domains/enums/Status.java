@@ -27,6 +27,7 @@ public enum Status {
     public void setSituacao(String situacao) {
         this.situacao = situacao;
     }
+
     public static Status toEnum(Integer id) throws IllegalAccessException {
         if (id==null) return null;
         for (Status x :Status.values()){
@@ -34,6 +35,6 @@ public enum Status {
              return x;
             }
         }
-        throw new IllegalAccessException("Status ivalido");
+        throw new IllegalAccessException("Status invalido");
     }
 }

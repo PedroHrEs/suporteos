@@ -1,46 +1,46 @@
-2024-09-18T18:28:52.451-03:00  INFO 16624 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.4 with PID 16624 (D:\ProjetosJavaSpring\suporteos\target\classes started by pedro in D:\ProjetosJavaSpring\suporteos)
-2024-09-18T18:28:52.473-03:00  INFO 16624 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
-2024-09-18T18:28:52.513-03:00  INFO 16624 --- [suporteos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-18T18:28:52.514-03:00  INFO 16624 --- [suporteos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-18T18:28:52.875-03:00  INFO 16624 --- [suporteos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-09-18T18:28:52.910-03:00  INFO 16624 --- [suporteos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
-2024-09-18T18:28:53.475-03:00  INFO 16624 --- [suporteos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-18T18:28:53.485-03:00  INFO 16624 --- [suporteos] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-18T18:28:53.486-03:00  INFO 16624 --- [suporteos] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-18T18:28:53.523-03:00  INFO 16624 --- [suporteos] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-18T18:28:53.524-03:00  INFO 16624 --- [suporteos] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
-2024-09-18T18:28:53.547-03:00  INFO 16624 --- [suporteos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-18T18:28:53.726-03:00  INFO 16624 --- [suporteos] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4846822c
-2024-09-18T18:28:53.727-03:00  INFO 16624 --- [suporteos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-18T18:28:53.735-03:00  INFO 16624 --- [suporteos] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/cursodb'
-2024-09-18T18:28:53.819-03:00  INFO 16624 --- [suporteos] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-09-18T18:28:53.861-03:00  INFO 16624 --- [suporteos] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-09-18T18:28:53.885-03:00  INFO 16624 --- [suporteos] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-09-18T18:28:54.091-03:00  INFO 16624 --- [suporteos] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-09-18T18:28:54.735-03:00  INFO 16624 --- [suporteos] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-09-18T18:28:54.743-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:18.249-03:00  INFO 12828 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.4 with PID 12828 (D:\ProjetosJavaSpring\suporteos\target\classes started by pedro in D:\ProjetosJavaSpring\suporteos)
+2024-10-13T12:58:18.258-03:00  INFO 12828 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2024-10-13T12:58:18.297-03:00  INFO 12828 --- [suporteos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-13T12:58:18.297-03:00  INFO 12828 --- [suporteos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-13T12:58:18.665-03:00  INFO 12828 --- [suporteos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-13T12:58:18.703-03:00  INFO 12828 --- [suporteos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-10-13T12:58:19.238-03:00  INFO 12828 --- [suporteos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-13T12:58:19.248-03:00  INFO 12828 --- [suporteos] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-13T12:58:19.248-03:00  INFO 12828 --- [suporteos] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-13T12:58:19.286-03:00  INFO 12828 --- [suporteos] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-13T12:58:19.286-03:00  INFO 12828 --- [suporteos] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
+2024-10-13T12:58:19.309-03:00  INFO 12828 --- [suporteos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-13T12:58:19.487-03:00  INFO 12828 --- [suporteos] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4725d784
+2024-10-13T12:58:19.488-03:00  INFO 12828 --- [suporteos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-13T12:58:19.498-03:00  INFO 12828 --- [suporteos] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/cursodb'
+2024-10-13T12:58:19.592-03:00  INFO 12828 --- [suporteos] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-13T12:58:19.635-03:00  INFO 12828 --- [suporteos] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-13T12:58:19.661-03:00  INFO 12828 --- [suporteos] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-13T12:58:19.875-03:00  INFO 12828 --- [suporteos] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-13T12:58:20.566-03:00  INFO 12828 --- [suporteos] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-13T12:58:20.575-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists produto 
        drop constraint if exists FKdupgm9x214hsg0i5cpu30dj16
-2024-09-18T18:28:54.752-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.584-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists grupoproduto cascade
-2024-09-18T18:28:54.757-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.588-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists produto cascade
-2024-09-18T18:28:54.760-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.590-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_grupoproduto
-2024-09-18T18:28:54.763-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.591-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_produto
-2024-09-18T18:28:54.768-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.595-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_grupoproduto start with 1 increment by 50
-2024-09-18T18:28:54.772-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.599-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_produto start with 1 increment by 50
-2024-09-18T18:28:54.774-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.601-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     create table grupoproduto (
         id integer not null,
         status smallint check (status between 0 and 1),
         descricao varchar(255) not null,
         primary key (id)
     )
-2024-09-18T18:28:54.781-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.608-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     create table produto (
         data_cadastro date,
         idgrupoproduto integer,
@@ -52,73 +52,135 @@
         descricao varchar(255) not null,
         primary key (id_produto)
     )
-2024-09-18T18:28:54.784-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.611-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists produto 
        add constraint FKdupgm9x214hsg0i5cpu30dj16 
        foreign key (idgrupoproduto) 
        references grupoproduto
-2024-09-18T18:28:54.788-03:00  INFO 16624 --- [suporteos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-09-18T18:28:54.967-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.615-03:00  INFO 12828 --- [suporteos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-13T12:58:20.792-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_grupoproduto')
-2024-09-18T18:28:55.000-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.832-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         grupoproduto
         (descricao, status, id) 
     values
         (?, ?, ?)
-2024-09-18T18:28:55.008-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.842-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_grupoproduto')
-2024-09-18T18:28:55.009-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.843-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         grupoproduto
         (descricao, status, id) 
     values
         (?, ?, ?)
-2024-09-18T18:28:55.010-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.845-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_produto')
-2024-09-18T18:28:55.012-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.848-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         produto
         (data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?)
-2024-09-18T18:28:55.015-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.852-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_produto')
-2024-09-18T18:28:55.015-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.853-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         produto
         (data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?)
-2024-09-18T18:28:55.017-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.855-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         produto
         (data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?)
-2024-09-18T18:28:55.018-03:00 DEBUG 16624 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
+2024-10-13T12:58:20.857-03:00 DEBUG 12828 --- [suporteos] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         produto
         (data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?)
-2024-09-18T18:28:55.061-03:00  WARN 16624 --- [suporteos] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-09-18T18:28:55.261-03:00  INFO 16624 --- [suporteos] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-18T18:28:55.283-03:00  INFO 16624 --- [suporteos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-18T18:28:55.289-03:00  INFO 16624 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 3.135 seconds (process running for 3.576)
-2024-09-18T18:29:09.312-03:00  INFO 16624 --- [suporteos] [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-18T18:29:09.312-03:00  INFO 16624 --- [suporteos] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-18T18:29:09.313-03:00  INFO 16624 --- [suporteos] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-09-18T18:30:23.074-03:00  INFO 16624 --- [suporteos] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-09-18T18:30:23.077-03:00  INFO 16624 --- [suporteos] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-09-18T18:30:23.079-03:00  INFO 16624 --- [suporteos] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-13T12:58:20.907-03:00  WARN 12828 --- [suporteos] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-13T12:58:21.140-03:00  INFO 12828 --- [suporteos] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-13T12:58:21.163-03:00  INFO 12828 --- [suporteos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-13T12:58:21.169-03:00  INFO 12828 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 3.219 seconds (process running for 3.69)
+2024-10-13T12:58:54.353-03:00  INFO 12828 --- [suporteos] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-13T12:58:54.353-03:00  INFO 12828 --- [suporteos] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-13T12:58:54.354-03:00  INFO 12828 --- [suporteos] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-13T12:58:54.466-03:00 DEBUG 12828 --- [suporteos] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id_produto,
+        p1_0.data_cadastro,
+        p1_0.descricao,
+        p1_0.idgrupoproduto,
+        p1_0.saldo_estoque,
+        p1_0.status,
+        p1_0.valor_estoque,
+        p1_0.valor_unitario 
+    from
+        produto p1_0
+2024-10-13T12:58:54.474-03:00 DEBUG 12828 --- [suporteos] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        gp1_0.id,
+        gp1_0.descricao,
+        gp1_0.status 
+    from
+        grupoproduto gp1_0 
+    where
+        gp1_0.id=?
+2024-10-13T12:58:54.479-03:00 DEBUG 12828 --- [suporteos] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        gp1_0.id,
+        gp1_0.descricao,
+        gp1_0.status 
+    from
+        grupoproduto gp1_0 
+    where
+        gp1_0.id=?
+2024-10-13T12:59:19.986-03:00 DEBUG 12828 --- [suporteos] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        gp1_0.id,
+        gp1_0.descricao,
+        gp1_0.status 
+    from
+        grupoproduto gp1_0
+2024-10-13T12:59:25.888-03:00 DEBUG 12828 --- [suporteos] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        gp1_0.id,
+        gp1_0.descricao,
+        gp1_0.status 
+    from
+        grupoproduto gp1_0 
+    where
+        gp1_0.id=?
+2024-10-13T12:59:29.371-03:00 DEBUG 12828 --- [suporteos] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        gp1_0.id,
+        gp1_0.descricao,
+        gp1_0.status 
+    from
+        grupoproduto gp1_0 
+    where
+        gp1_0.id=?
+2024-10-13T12:59:32.940-03:00 DEBUG 12828 --- [suporteos] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        gp1_0.id,
+        gp1_0.descricao,
+        gp1_0.status 
+    from
+        grupoproduto gp1_0
+2024-10-13T13:00:28.331-03:00  INFO 12828 --- [suporteos] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-13T13:00:28.333-03:00  INFO 12828 --- [suporteos] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-13T13:00:28.336-03:00  INFO 12828 --- [suporteos] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
